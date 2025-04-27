@@ -1,0 +1,23 @@
+{
+  "name": "gms-teste",
+  "version": "1.0.0",
+  "description": "Testes da Jornada QA - EBAC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camiladoriguello/gms-teste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camiladoriguello/gms-teste/issues"
+  },
+  "homepage": "https://github.com/camiladoriguello/gms-teste#readme",
+  "dependencies": {
+    "cypress": "^14.3.2"
+  }
+}
