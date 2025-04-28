@@ -7,6 +7,9 @@ describe('US_012 - Funcionalidade: Cadastro de Membros', () => {
   beforeEach(() => {
     cy.visit('/');
   });
+  afterEach(() => {
+    cy.screenshot()
+  });
 
   it('Registro com todos os campos obrigatórios preenchidos', () => {
     cy.preencheCadastro('Camila', 'Moreira', email, '35988665522', 'SenhaForte@123');

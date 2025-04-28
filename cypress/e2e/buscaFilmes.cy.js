@@ -5,6 +5,9 @@ describe('US_001 - Funcionalidade: Busca de Filmes', () => {
   beforeEach(() => {
     cy.visit('/')
   });
+  afterEach(() => {
+    cy.screenshot()
+  });
 
   it('Busca de filmes com uma palavra chave válida', () => {
     cy.get('#search-input').type('Lion King');
